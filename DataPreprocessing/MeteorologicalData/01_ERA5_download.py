@@ -7,7 +7,7 @@ credits to Albrecht Weerts for similar python script to download SEAS5 data
 """
 
 import os
-path = r'C:\\Users\\gasten\\OneDrive - Stichting Deltares\\Documents\\02_Data\01_Meteorological_Data\\ERA5\\01_raw\\HoA'
+path = #path to directory to store raw ERA5 data
 os.chdir(path)
 import cdsapi
 
