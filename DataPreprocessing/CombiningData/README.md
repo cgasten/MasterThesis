@@ -1,1 +1,1 @@
-
+The present directory contains a file to map monthly DI values to a monthly conflict occurrence variable in tabular format. For each temporal lag (0-7) months, a separate output file is stored, which can be used in the following Logistic Regression analysis as well as the Random Forest model (only lag 0 used).
