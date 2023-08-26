@@ -13,8 +13,8 @@ require(tidyverse)
 
 
 #Input and output paths
-path_mapping_input <- "C:/Users/gasten/OneDrive - Stichting Deltares/Documents/02_Data/06_Drought_Conflict_Mapping" #path to drought-conflict-mapping
-path_statistics_output <- "C:/Users/gasten/OneDrive - Stichting Deltares/Documents/04b_Results" #path to store LRM output
+path_mapping_input <- #path to drought-conflict-mapping
+path_statistics_output <- #path to store LRM output
 
 #model configurations to loop through
 foci <- c("dry", "wet")
