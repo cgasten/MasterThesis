@@ -4,7 +4,7 @@
 
 
 #load models
-source("C:/Users/gasten/OneDrive - Stichting Deltares/Documents/03b_RScripts/Models.R")#path to script Models.R
+source()#path to script Models.R
 
 #load packages
 require("clubSandwich")
