@@ -2,7 +2,7 @@
 
 #The present script prepares dataframes to feed them into the functions for Model 3 and Model 4. The obtained coefficient estimates and variance-covariance matrices are stored.
 
-source("C:/Users/gasten/OneDrive - Stichting Deltares/Documents/03b_RScripts/Models.R")#path to script Models.R
+source()#path to script Models.R
 
 #load packages
 require("clubSandwich")
@@ -10,8 +10,8 @@ require("lmtest")
 require(tidyverse)
 
 #Input and output paths
-path_mapping_input <- "C:/Users/gasten/OneDrive - Stichting Deltares/Documents/02_Data/06_Drought_Conflict_Mapping" #path to drought-conflict-mapping
-path_statistics_output <- "C:/Users/gasten/OneDrive - Stichting Deltares/Documents/04b_Results" #path to store LRM output
+path_mapping_input <- #path to drought-conflict-mapping
+path_statistics_output <- #path to store LRM output
 
 
 #model configurations to loop through
