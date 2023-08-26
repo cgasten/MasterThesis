@@ -1,0 +1,4 @@
+select a."NAME_1",  group_concat(b."NAME_1") as neighbours, ST_Union(b.geom) as merged_geom
+from Adm1_spatconflict1 a, Adm1_spatconflict1 b
+where touches(a.geom, b.geom)
+group by a."NAME_1"
