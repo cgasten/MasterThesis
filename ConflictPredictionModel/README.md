@@ -1,1 +1,1 @@
-
+The present directory contains one notebook, run in kaggle, which has been used to construct, fit and analyse the Random Forest Model. For input variables it is referred to the Data Preprocessing sub-directories.
