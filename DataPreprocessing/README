@@ -1,1 +1,2 @@
-
+The present directory contains sub-directories for the preprocessing of meteorological data (MeteorologicalData), conflict data (ConflictData), 
+the combination of the derived DIs and binary conflict variables (CombiningData) and the preprocessing and combination of all data for the Random Forest model (RFModelInput).
